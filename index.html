@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Container Redirect</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: aquamarine;
+      }
+
+      .container {
+        width: 250px;
+        height: 250px;
+        background-color: #3498db;
+        color: #fff;
+        text-align: center;
+        line-height: 150px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      .container:nth-child(2) {
+        background-color: #e74c3c;
+      }
+
+      .container:nth-child(3) {
+        background-color: #2ecc71;
+      }
+
+      .container:nth-child(4) {
+        background-color: #f39c12;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ALL HAPPIELOOP ASSIGNMENTS</h1>
+
+    <div
+      class="container"
+      onclick="window.location.href='Task 1 Create a Basic HTML Web Page/index.html'"
+    >
+      Task 1 Create a Basic HTML Web Page
+    </div>
+    <div
+      class="container"
+      onclick="window.location.href='Task 2 Build a Simple Responsive/index.html'"
+    >
+      Task 2 Build a Simple Responsive
+    </div>
+    <div
+      class="container"
+      onclick="window.location.href='Task 3 Create a Navigation Menu/index.html'"
+    >
+      Task 3 Create a Navigation Menu
+    </div>
+    <div
+      class="container"
+      onclick="window.location.href='Task 4 Build a Contact Form/index.html'"
+    >
+      Task 4 Build a Contact Form
+    </div>
+  </body>
+</html>
